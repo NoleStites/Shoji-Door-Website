@@ -84,6 +84,14 @@ body {
     transition: transform 0.8s ease;
 }
 
+#door_left {
+    box-shadow: 20px 0px rgb(31, 20, 7);
+}
+
+/* #door_right {
+    box-shadow: -20px 0px rgb(31, 20, 7);
+} */
+
 #door_left.open_left {
     transform: translate(var(--translate-amount), 0px);
 }

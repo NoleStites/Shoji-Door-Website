@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateTranslation() {
         const doorRightWidth = doorRight.offsetWidth;
-        const translateAmount = doorRightWidth * 0.70; // 70% of the width
+        const translateAmount = doorRightWidth * 0.70; // 70    % of the width  
         
         // Set the CSS variable for translation
         doorLeft.style.setProperty('--translate-amount', `-${translateAmount}px`);
